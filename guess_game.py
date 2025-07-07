@@ -28,9 +28,9 @@ def play_game():
 def main():
     while True:
         play_game()
-        play_again = input("🔁 Do you want to play again? (yes/no): ").strip().lower()
+        play_again = input("Do you want to play again? (yes/no): ").strip().lower()
         if play_again != "yes":
-            print("👋 Thanks for playing! Goodbye.")
+            print("Thanks for playing! Goodbye.")
             break
 
 if __name__ == "__main__":
